@@ -13,8 +13,25 @@
   - **Swagger**: For API documentation and testing
   - **Entity Framework Core(Planned)**: ORM for database management (planned for future commits)
 
- ##Setup Instructions
- - Clone reposotiry
-  ```bash
-git clone
- - Second item
+ ## Setup Instructions
+1.Clone reposotiry:
+```bash
+  git clone https://github.com/yllkakamberi/Sportify.git
+```
+2.Navigate to the project directory:
+   ```bash
+cd Sportify
+```
+3.Restore the dependencies:
+```bash
+dotnet restore
+```
+4.Run the application
+```bash
+dotnet run
+```
+5.Open a web browser and navigate to the Swagger UI for testing the API
+```bash
+http://localhost:5109
+```
+
